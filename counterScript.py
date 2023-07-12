@@ -1,4 +1,7 @@
 import csv; 
+import numpy as np; 
+import collections; 
+
 largeList = []; 
 enemy_team = [2, 5, 3, 10];
 
@@ -21,5 +24,10 @@ def all_counters(enemyNum):
     for num in enemy_team: 
         lineReader(num);
 
-all_counters(enemy_team);
-print(largeList); 
+def rank():
+    all_counters(enemy_team);
+    counters = collections.Counter(largeList); 
+
+    print(counters.most_common(3)); 
+
+rank(); 
