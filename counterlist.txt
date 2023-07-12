@@ -1,0 +1,10 @@
+1.Sombra,Zarya,Roadhog,Mei,Symmetra
+2.Reaper,Pharah,Bastion,Echo,Mei
+3.Bastion,Zenyatta,Mei,Orisa,Ana
+4.Winston,Zenyatta,Junkrat,Reaper
+5.Reaper,Bastion,Pharah,Junkrat,Sombra
+6.Ana,Zarya,Reaper,Sombra,Hanzo
+7.Pharah,Reaper,Reinhardt,Ramatra,Echo
+8.Bastion,Reaper,Ana,Moira,Junkrat
+9.Sombra,Orisa,Bastion,Junkrat,Symmetra
+10.Sombra,Zen,Bastion,Sigma
