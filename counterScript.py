@@ -1,5 +1,6 @@
 import csv; 
 largeList = []; 
+enemy_team = [2, 5, 3, 10];
 
 def lineReader(heroNum): 
 
@@ -15,7 +16,10 @@ def lineReader(heroNum):
             break; 
         count+=1;
         
+def all_counters(enemyNum):
 
-characterNum = int(input("Hero Number?"));
-lineReader(characterNum); 
+    for num in enemy_team: 
+        lineReader(num);
+
+all_counters(enemy_team);
 print(largeList); 
