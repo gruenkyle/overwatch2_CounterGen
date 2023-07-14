@@ -29,14 +29,14 @@ List of Counterable Heros
 20. Pharah
 21. Reaper
 22. Sojourn 
-23. Soldier 
+23. Soldier76
 24. Sombra
 25. Symmetra
 26. Torbjorn 
 27. Tracer
 28. Widow Maker 
 
-29. Ashe
+29. Ana
 30. Baptiste
 31. Brigette
 32. Kiriko 

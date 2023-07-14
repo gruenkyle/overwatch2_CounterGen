@@ -2,6 +2,11 @@
 
 A script that uses OpenCV to determine the best counters to each Overwatch hero on the enemy team.
 
+Version 1.44
+- Updated List with DPS Counters
+- Updated List with Healer Counters'
+- Replaced Ashe typo in Healers with Ana
+
 Version 1.42
 - Updated Tank List with wider selection 
 - Added Ramattra to List as well
