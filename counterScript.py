@@ -3,7 +3,7 @@ import numpy as np;
 import collections; 
 
 largeList = []; 
-enemy_team = [2, 5, 3, 10];
+enemy_team = [2, 5, 4, 3, 1];
 
 def lineReader(heroNum): 
 
