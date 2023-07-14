@@ -1,0 +1,45 @@
+Hello! This is my rendition of the skeleton code for what will eventually be the
+Overwatch 2 Counter Generator. 
+So far I have complete the algorithm for sorting and ranking what counters the enemy team best.
+I am hoping to progress the project from Base Code -> Every Character -> Role Specific -> Open CV Reader
+
+The Hero List is divided into a csv file where every hero is pointed to by a number row within the file. 
+
+List of Counterable Heros 
+1. DVA
+2. Doomfist
+3. JunkerQueen
+4. Orisa 
+5. Reinhardt
+6. Roadhog
+7. Sigma
+8. Winston 
+9. Hammond
+10. Zarya
+
+11. Ashe 
+12. Bastion
+13. Cassidy
+14. Echo
+15. Genji
+16. Hanzo
+17. Junkrat
+18. Mei
+19. Pharah
+20. Reaper
+21. Sojourn 
+22. Soldier 
+23. Sombra
+24. Symmetra
+25. Torbjorn 
+26. Tracer
+27. Widow Maker 
+
+28. Ashe
+29. Baptiste
+30. Brigette
+31. Kiriko 
+32. Lucio
+33. Mercy
+34. Moira
+35. Zenyatta 
