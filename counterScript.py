@@ -3,7 +3,7 @@ import numpy as np;
 import collections; 
 
 largeList = []; 
-enemy_team = [8,16,12];
+enemy_team = [1,32,36,16,23];
 
 def lineReader(heroNum): 
 
@@ -28,6 +28,6 @@ def rank():
     all_counters(enemy_team);
     counters = collections.Counter(largeList); 
 
-    print(counters.most_common(3)); 
+    print(counters.most_common(5)); 
 
 rank(); 
