@@ -2,6 +2,10 @@
 
 A script that uses OpenCV to determine the best counters to each Overwatch hero on the enemy team.
 
+Version 1.60 
+- Role Specific Script Complete
+- File Path System in place to get specific role results
+
 Version 1.50
 - Role Specific Tank Counter CSV added
 - Comments on counterScript.py added 
