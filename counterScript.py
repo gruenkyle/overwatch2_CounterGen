@@ -7,7 +7,7 @@ enemy_team = [1,32,36,16,23];
 
 def lineReader(heroNum): 
 
-    f = open("counterlist.csv", "r");
+    f = open("./roleCounters/counterlist.csv", "r");
     csvin = csv.reader(f);
     count = 1 
 
