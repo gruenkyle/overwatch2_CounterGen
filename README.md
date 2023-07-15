@@ -1,6 +1,6 @@
 # overwatch_dpsCounter
 
-A script that uses OpenCV to determine the best counters to each Overwatch hero on the enemy team.
+A script that uses OpenCV to determine the best counters to each Overwatch hero on the enemy team
 
 Version 1.60 
 - Role Specific Script Complete

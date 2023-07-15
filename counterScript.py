@@ -6,7 +6,7 @@ I wanted to make sure I could make it functional before going deeper
 into the open cv side of the project.
 
 Takes in the enemy team characters and pulls the best counters for each number
-Uses large array created to rank the most repeated characters
+Uses large array created to rank the most repeated characters.
 
 '''
 
@@ -62,3 +62,4 @@ def rank():
     print(counters.most_common(5)); #Number is how many heros show
 
 rank(); 
+
