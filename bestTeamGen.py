@@ -18,7 +18,7 @@ dpsArr = [];     #List of all counters pulled from csv
 supportArr = [];
 tankArr = []; 
 
-enemy_team = [1,32,36,16,23];   #Current Heros on enemy team
+enemy_team = [3,23,19,35,29];   #Current Heros on enemy team
 
 #Methods# 
 
@@ -45,11 +45,11 @@ def lineReader(heroNum, role):
         if (count == heroNum):
             for item in row:
                 if (role == "DPS"):
-                    dps.append(item);
+                    dpsArr.append(item);
                 elif(role == "TANK"):
-                    tank.append(item);
+                    tankArr.append(item);
                 elif(role == "SUPPORT"):
-                    support.append(item); 
+                    supportArr.append(item); 
         elif (count > heroNum):
             break; 
         count+=1;
