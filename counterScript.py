@@ -7,7 +7,6 @@ into the open cv side of the project.
 
 Takes in the enemy team characters and pulls the best counters for each number
 Uses large array created to rank the most repeated characters.
-
 '''
 
 #Imports#
