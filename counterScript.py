@@ -11,11 +11,13 @@ Uses large array created to rank the most repeated characters.
 '''
 
 #Imports#
+
 import csv; 
 import numpy as np; 
 import collections; 
 
 #Fields#
+
 largeList = [];     #List of all counters pulled from csv
 enemy_team = [1,32,36,16,23];   #Current Heros on enemy team
 
@@ -60,6 +62,8 @@ def rank():
     counters = collections.Counter(largeList);  #Creates collections counter instance 
 
     print(counters.most_common(5)); #Number is how many heros show
+
+#Executable#
 
 rank(); 
 

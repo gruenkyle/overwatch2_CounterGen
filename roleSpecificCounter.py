@@ -5,11 +5,13 @@ This script takes in the role you are playing and gives the best character
 '''
 
 #Imports#
+
 import csv; 
 import numpy as np; 
 import collections; 
 
 #Fields#
+
 largeList = [];     #List of all counters pulled from csv
 enemy_team = [1,32,36,16,23];   #Current Heros on enemy team
 filePath = "";
@@ -63,7 +65,7 @@ Takes input of specific role being played and sets csv being read to that role
 Then runs rank() method to created a top list of the best picks
 '''
 def run():
-    role = input("What is your role?");
+    role = input("What is your role?").upper();
 
     global filePath;
 
@@ -72,8 +74,10 @@ def run():
     elif (role == "SUPPORT"):
         filePath = "./roleCounters/supportList.csv";
     elif (role == "DPS"):
-        filePath = "./roleCounters/supportList.csv";
+        filePath = "./roleCounters/dpsList.csv";
     
     rank(); 
+
+#Executable#
 
 run(); 
