@@ -2,6 +2,11 @@
 
 A script that uses OpenCV to determine the best counters to each Overwatch hero on the enemy team
 
+Version 2.00 
+- Image Cropping Tested (Works)
+- Character Images Added 
+- imageCounter.py started
+
 Version 1.75 
 - Best Team Generator Complete 
 - Updated Comma Glitch in CSV 
