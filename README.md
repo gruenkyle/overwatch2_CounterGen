@@ -2,6 +2,9 @@
 
 A script that uses OpenCV to determine the best counters to each Overwatch hero on the enemy team
 
+Version 3.10 
+- Two Scoreboard Testing JPG added
+
 Version 3.00
 - Fully Functional Counter Picker
 - Test Screenshot junkTest.jpg is being used 
