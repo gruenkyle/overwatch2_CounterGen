@@ -2,6 +2,17 @@
 
 A script that uses OpenCV to determine the best counters to each Overwatch hero on the enemy team
 
+Version 3.00
+- Fully Functional Counter Picker
+- Test Screenshot junkTest.jpg is being used 
+- Returns Full Team Comp 
+- Reset Files / Organized and Commented
+
+Version 2.25
+- imageCounter.py is functional 
+- template matching with screenshots functional 
+- Organization of folders started
+
 Version 2.00 
 - Image Cropping Tested (Works)
 - Character Images Added 
