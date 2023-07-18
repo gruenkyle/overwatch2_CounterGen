@@ -15,7 +15,7 @@ import csv;
 #Fields#
 
 templatePath = "";      #Directory Path Field that is filled with characterImg folder
-scoreboardPath = "scoreboardTestTwo.jpg";        #Directory Path of Screenshot of Enemy Team
+scoreboardPath = "scoreboardTestFour.jpg";        #Directory Path of Screenshot of Enemy Team
 enemy_team = [];         #Array that holds what players the enemy team is using
 threshold = 0.75;        #Threshold that maxVal in matchTemplate must reach
 
