@@ -11,11 +11,13 @@ Done by taking in a screenshot and template matching it with our folder of chara
 from collections import Counter; 
 import cv2;
 import csv;
+import glob;
+import os;
 
 #Fields#
 
 templatePath = "";      #Directory Path Field that is filled with characterImg folder
-scoreboardPath = "scoreboardTestFour.jpg";        #Directory Path of Screenshot of Enemy Team
+scoreboardPath = "";        #Directory Path of Screenshot of Enemy Team
 enemy_team = [];         #Array that holds what players the enemy team is using
 threshold = 0.75;        #Threshold that maxVal in matchTemplate must reach
 
@@ -24,6 +26,18 @@ supportArr = [];        #List of best Support counters in csv
 tankArr = [];       #List of best Tank counters in csv 
 
 #Methods#
+
+'''
+Method screenshotFileFind():
+Uses glob function to pull all files in screenshot folder from overwatch 
+Grabs and returns most recent screenshot from folder
+'''
+def screenshotFileFind():
+
+    list_of_files = glob.glob('C:/Users/kyleg/Documents/Overwatch/ScreenShots/Overwatch/*jpg');
+    screenshot = max(list_of_files, key=os.path.getctime);
+    return(screenshot);
+
 
 '''
 Method correlatingImage(str, str):
@@ -57,6 +71,8 @@ Appends specific heros on enemy team into array enemyTeam[]
 Uses the characterImg folder to enter parameter into correlatingImage() function
 '''
 def createCounterList(): 
+
+    scoreboardPath = screenshotFileFind(); 
 
     for count in range(37):     #For loop for the 37 files within characterImg Folder
         global threshold;   
@@ -157,4 +173,4 @@ def execute():
     return 0; 
 
 #Executable#
-execute(); 
+execute();
