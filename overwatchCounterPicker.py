@@ -13,6 +13,7 @@ import cv2;
 import csv;
 import glob;
 import os;
+import keyboard; 
 
 #Fields#
 
@@ -145,7 +146,8 @@ def rank():
     all_counters(enemy_team,"SUPPORT");
     all_counters(enemy_team,"DPS");
 
-    return 0; 
+    return 0;
+
 
 '''
 Method execute():
@@ -172,5 +174,36 @@ def execute():
 
     return 0; 
 
+'''
+Method resetStats():
+Resets all given arrays that have been used so the counts of counters
+does not continue to increase as gameplay is taking place
+'''
+def resetStats():
+    global dpsArr, tankArr, supportArr, enemy_team, templatePath, scoreboardPath;
+
+    dpsArr = [];
+    tankArr = [];
+    supportArr = [];
+    enemy_team = [];
+    templatePath = "";
+    scoreboardPath = "";
+    return 0;
+
+'''
+Method run():
+When script is started, the program runs continually while you play]
+Editable keystrokes are put in place for your screenshot button
+So it can run based on when you press the specific button
+
+'''
+def run():
+    while True:
+        if (keyboard.is_pressed(']')):
+            execute();
+            resetStats();
+        if (keyboard.is_pressed('-')):
+            break; 
+
 #Executable#
-execute();
+run(); 
