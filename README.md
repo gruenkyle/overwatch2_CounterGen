@@ -2,6 +2,9 @@
 
 A script that uses OpenCV to determine the best counters to each Overwatch hero on the enemy team
 
+Version 3.75 
+- Full Gameplay Functionality off KeyStroke used
+
 Version 3.50 
 - Screenshot Folder Location
 - Automatically uses most recent screenshot in folder
